@@ -64,3 +64,16 @@ main:hover {
   color: #414141;
   cursor: pointer;
 }
+
+.starContainer{
+  display: flex;
+  fill: black;
+}
+.starContainer1{
+  display: flex;
+  fill: goldenrod;
+}
+.starContainer:hover,
+.starContainer:focus {
+ fill: goldenrod;
+}

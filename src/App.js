@@ -13,8 +13,7 @@ function App() {
       }, 1000);
   }, [start]);
 
-  console.log(start);
-  console.log(bar);
+
   return (
     <div className="App">
       <div>{start}</div>
