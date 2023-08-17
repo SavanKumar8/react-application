@@ -17,7 +17,6 @@ export default function Otp() {
     value6: "",
   });
   const re = /^\d{0,4}$/;
-  console.log(inputValue);
   const { value1, value2, value3, value4, value5, value6 } = inputValue;
   useEffect(() => {
     if (inputValue.value1 != "") {
